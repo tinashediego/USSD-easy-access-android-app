@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ZimMobo</string>
+    <string name="title_activity_airtime__menu">Airtime_Menu</string>
+    <string name="title_activity_transfer__airtime">Transfer_Airtime</string>
+    <string name="title_activity_call__me__back">Call_Me_Back</string>
+    <string name="title_activity_send__money">Send_Money</string>
+    <string name="title_activity_make__payment">Make_Payment</string>
+    <string name="title_activity_cashout">Cashout</string>
+    <string name="title_activity_buy_airtime">BuyAirtime</string>
+    <string name="title_activity_my_mobile">MyMobile</string>
+    <string name="title_activity_other_mobile">OtherMobile</string>
+    <string name="title_activity_messages">Messages</string>
+    <string name="title_activity_my_mobile_sms">MyMobileSms</string>
+    <string name="title_activity_other_mobile_sms">OtherMobileSms</string>
+    <string name="title_activity_pay_merchant">PayMerchant</string>
+    <string name="title_activity_pay__school__fees">Pay_School_Fees</string>
+    <string name="title_activity_transfer_to_church">TransferToChurch</string>
+    <string name="title_activity_regular_payments">RegularPayments</string>
+    <string name="title_activity_pay_zesa">PayZesa</string>
+    <string name="title_activity_buy_token">BuyToken</string>
+    <string name="title_activity_pay_bill">PayBill</string>
+    <string name="title_activity_add__biller">Add_Biller</string>
+    <string name="title_activity_data__bundles">Data_Bundles</string>
+    <string name="title_activity_whatsapp__bundles">Whatsapp_Bundles</string>
+    <string name="title_activity_other__whatsapp">Other_Whatsapp</string>
+    <string name="title_activity_facebook__bundles">Facebook_Bundles</string>
+    <string name="title_activity_other_facebook">OtherFacebook</string>
+    <string name="title_activity_wallet__services">Wallet_Services</string>
+    <string name="title_activity_banking__services">Banking_Services</string>
+    <string name="title_activity_debit_card">DebitCard</string>
+    <string name="title_activity_account_enquiry">AccountEnquiry</string>
+    <string name="title_activity_next_of_kin">NextOfKin</string>
+    <string name="title_activity_master_card__physical">MasterCard_Physical</string>
+    <string name="title_activity_master_card__virtual">MasterCard_Virtual</string>
+    <string name="title_activity_pay_zol">PayZol</string>
+</resources>

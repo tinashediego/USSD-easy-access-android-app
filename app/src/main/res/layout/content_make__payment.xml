@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/paybill"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="48dp"
+        android:onClick="payBill"
+        android:text="Pay Bill" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+    <Button
+        android:id="@+id/paymerchant"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="payMerchant"
+        android:text="Pay Merchant" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+    <Button
+        android:id="@+id/payschoolfees"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="paySchoolFees"
+        android:text="Pay School Fees" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+    <Button
+        android:id="@+id/paymentApproval"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="paymentApproval"
+        android:text="Payment Approval"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+    <Button
+        android:id="@+id/transfertochurch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="transferToChurch"
+        android:text="Transfer To Church"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+    <Button
+        android:id="@+id/regularPayments"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="regularPayments"
+        android:text="Regular Payments"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+    <Button
+        android:id="@+id/addBiller"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="addBiller"
+        android:text="Add Biller"/>
+</LinearLayout>

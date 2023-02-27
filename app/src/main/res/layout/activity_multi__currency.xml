@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/activateOtherCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="48dp"
+        android:onClick="activateOtherCurrency"
+        android:text="Activate Other Currency" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="4dp" />
+    <Button
+        android:id="@+id/changeCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="changeCurrency"
+        android:text="Change Currency" />
+</LinearLayout>

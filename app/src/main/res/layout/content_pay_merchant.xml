@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="56dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:hint="Enter Merchant Code"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/merchant_code" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="56dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:hint="Enter Amount"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/amount" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/sendMoney"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="48dp"
+        android:onClick="payMerchant"
+        android:text="Pay Merchant" />
+</LinearLayout>

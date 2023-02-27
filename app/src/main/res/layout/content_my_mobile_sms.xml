@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/sms5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily 5 SMS - $0.05"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/sms15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily 15 SMS - $0.10"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/sms50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily 50 SMS - $0.15"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/sms130"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekly 130 SMS - $0.50"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/sms250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekly 250 SMS - $1"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/sms500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekly 500 SMS - $2"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/sendMoney"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="48dp"
+        android:onClick="sendMoney"
+        android:text="Send SMS" />
+</LinearLayout>

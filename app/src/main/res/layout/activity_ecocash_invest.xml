@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="56dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/accCreation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Creation"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/priBuyOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primary Buy Order"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/secBuyOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Secondary Buy Order"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/secSellOrder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Secondary Sell Order"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/completeTransfer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="48dp"
+        android:onClick="clickTOContinue"
+        android:text="Click to Continue" />
+</LinearLayout>

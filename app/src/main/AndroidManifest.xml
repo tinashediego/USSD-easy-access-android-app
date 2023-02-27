@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nyasha.zimmobo">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".airtime.Airtime_Menu"
+            android:label="@string/title_activity_airtime__menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".airtime.Transfer_Airtime"
+            android:label="@string/title_activity_transfer__airtime"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".call_me_back.Call_Me_Back"
+            android:label="@string/title_activity_call__me__back"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".send_money.Send_Money"
+            android:label="@string/title_activity_send__money"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".make_payment.Make_Payment"
+            android:label="@string/title_activity_make__payment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cashout.Cashout"
+            android:label="@string/title_activity_cashout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".airtime.BuyAirtime"
+            android:label="@string/title_activity_buy_airtime"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".airtime.OtherMobile"
+            android:label="@string/title_activity_other_mobile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".messages.Buy_Messages"
+            android:label="@string/title_activity_messages"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".messages.MyMobileSms"
+            android:label="@string/title_activity_my_mobile_sms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".messages.OtherMobileSms"
+            android:label="@string/title_activity_other_mobile_sms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".make_payment.PayMerchant"
+            android:label="@string/title_activity_pay_merchant"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".make_payment.Pay_School_Fees"
+            android:label="@string/title_activity_pay__school__fees"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".make_payment.TransferToChurch"
+            android:label="@string/title_activity_transfer_to_church"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".make_payment.regularpayments.RegularPayments"
+            android:label="@string/title_activity_regular_payments"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".make_payment.regularpayments.payzesa.PayZesa"
+            android:label="@string/title_activity_pay_zesa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".make_payment.regularpayments.payzesa.BuyToken"
+            android:label="@string/title_activity_buy_token"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".make_payment.PayBill"
+            android:label="@string/title_activity_pay_bill"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".make_payment.Add_Biller"
+            android:label="@string/title_activity_add__biller"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".databundles.Data_Bundles"
+            android:label="@string/title_activity_data__bundles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".databundles.whatsapp.Whatsapp_Bundles"
+            android:label="@string/title_activity_whatsapp__bundles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".databundles.whatsapp.Other_Whatsapp"
+            android:label="@string/title_activity_other__whatsapp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".databundles.facebook.Facebook_Bundles"
+            android:label="@string/title_activity_facebook__bundles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".databundles.facebook.OtherFacebook"
+            android:label="@string/title_activity_other_facebook"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".wallet_services.Wallet_Services"
+            android:label="@string/title_activity_wallet__services"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".banking_services.Banking_Services"
+            android:label="@string/title_activity_banking__services"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".wallet_services.debitcard.DebitCard"
+            android:label="@string/title_activity_debit_card"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".wallet_services.account_enquiry.AccountEnquiry"
+            android:label="@string/title_activity_account_enquiry"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".wallet_services.nextofkin.NextOfKin"
+            android:label="@string/title_activity_next_of_kin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".wallet_services.debitcard.physical.MasterCard_Physical"
+            android:label="@string/title_activity_master_card__physical"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".wallet_services.debitcard.virtual.MasterCard_Virtual"
+            android:label="@string/title_activity_master_card__virtual"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".wallet_services.changelanguage.ChangeLanguage" />
+        <activity android:name=".wallet_services.multicurrency.Multi_Currency" />
+        <activity android:name=".wallet_services.multicurrency.ChangeCurrency" />
+        <activity android:name=".wallet_services.pinreset.PinReset" />
+        <activity android:name=".wallet_services.pinreset.ChangePin" />
+        <activity android:name=".banking_services.WalletToBank" />
+        <activity android:name=".banking_services.BankToWallet" />
+        <activity
+            android:name=".make_payment.regularpayments.payzol.PayZol"
+            android:label="@string/title_activity_pay_zol"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".make_payment.regularpayments.ecocashinvest.EcocashInvest" />
+        <activity android:name=".make_payment.regularpayments.paytollgate.PayTollGate"></activity>
+    </application>
+
+</manifest>

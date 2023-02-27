@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="56dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:hint="Enter First Name"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/firstName" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:hint="Enter Surname"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/sname" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:hint="Enter MSISDN"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/msisnd" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:hint="Enter ID"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/id" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:id="@+id/nxtOfKin"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="48dp"
+        android:onClick="addNextOfKin"
+        android:text="Add Next Of Kin" />
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/registerVRN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register VRN"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/de-registerVRN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DE-Register VRN"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/loadTollGateAcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load Tollgate Account"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/balEnquiry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balance Enquiry"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/miniStatement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MIni Statement"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/completeTransfer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="48dp"
+        android:onClick="clickTOContinue"
+        android:text="Click to Continue" />
+</LinearLayout>

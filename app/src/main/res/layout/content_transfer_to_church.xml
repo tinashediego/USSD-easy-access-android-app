@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="52dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:hint="Enter Merchant Code"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/merchant_code" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="32dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:hint="Enter Amount"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/amount" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginTop="32dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorAccent"
+        android:hint="Enter Assembly"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/assembly" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton android:id="@+id/offering"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offering"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/tithe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tithe"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/buildingFund"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Building Fund"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton android:id="@+id/other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/sendMoney"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="24dp"
+        android:onClick="makePayment"
+        android:text="Make Payment" />
+</LinearLayout>
